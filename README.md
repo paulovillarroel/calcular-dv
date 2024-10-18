@@ -2,12 +2,13 @@
 
 ¡Bienvenido al proyecto Calculador de Dígito Verificador de RUN!
 
-![](images/paste-1.png){fig-align="center"}
+![](images/paste-1.png)
 
 Este es un proyecto de aplicación web desarrollado con R y Shiny que permite calcular el dígito verificador de un RUN (Registro Único Nacional) chileno.
 
 La idea detrás del proyecto es que puedas validar los RUN´s de forma masiva, de forma simple y rápida.
 
+\
 **Funcionalidades**
 
 -   Sube un archivo Excel que contenga la columna de RUN
@@ -31,6 +32,7 @@ Requisitos**
 
 -   writexl versión 1.3.1
 
+\
 **Notas importantes**
 
 Los datos subidos no se guardan en ningún lugar. Se utilizan solo para el cálculo del dígito verificador. Asegúrate de que el nombre de la columna de RUN coincida exactamente con el nombre en el archivo Excel, incluyendo mayúsculas y minúsculas.
